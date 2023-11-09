@@ -1,0 +1,10 @@
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(knitr)
+```
+
+```{r, echo=FALSE, message=FALSE}
+test_numbers <- read_csv("C:/Users/mpart/OneDrive - PennO365/Documents/test_numbers.csv")
+kable(test_numbers[1:2, ])
+```
